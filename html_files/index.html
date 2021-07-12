@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Constantine Campus Laboratory</title>
+    <link rel="stylesheet" href="../css_files/Styles.css">
+
+    <!-- these are about icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+<link rel="manifest" href="../favicon_io/site.webmanifest">
+
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+<!-- fontawesome -->
+<link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.css">
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="../favicon_io/apple-touch-icon.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><select name="labs" class="labs">
+                    <option value="">LABORATORIES</option>
+                    <option value=""> <a href=""> Computer_lab</a></option>
+                    <option value=""> <a href=""> Sports Lab</a></option>
+                    <option value=""> <a href=""> Bio-tech Lab</a></option>
+                    <option value=""> <a href=""> Scientific Lab</a></option>
+                </select></li>
+                <li><a href="./Login.html">LOGIN</a></li>
+                <li><a href="./suprementary/Contacts.html">CONTACTS</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1> Constantine 2 Smart Campus LABORATORY</h1>
+    <p>
+        Smart campus is one of the most Inovative LABORATORIES in Constantine.It is based on the traditional LABORATORIES <br>
+        and it provide students with accommodating environment for Learning especially internet of things (IOT).
+    </p>
+    <a href="" class="hero-btn">Visit our main University Campus for more</a>
+</div>
+    </section>
+
+    <!-- Laboratories available -->
+    <section class="lab">
+        <h1>Available  Laboratories</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloribus nisi tenetur, at totam adipisci 
+            ipsum quos voluptatum, dolor amet saepe rem praesentium illum animi repellat, architecto modi unde pariatur!
+       </p>
+
+       <div class="row">
+           <div class="lab-col">
+               <h3>COMPUTER LABORATORY</h3>
+               <a href=""><img src="../images/computer-lab.jpg" alt=""></a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi architecto laborum inventore animi corrupti 
+                 mollitia nam ad dicta neque error.
+                </p>
+           </div>
+           <div class="lab-col">
+            <h3>RESEARCH LABORATORY</h3>
+            <a href=""><img src="../images/computer-lab.jpg" alt=""></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi architecto laborum inventore animi corrupti 
+              mollitia nam ad dicta neque error
+             </p>
+        </div>
+        <div class="lab-col">
+            <h3>SCIENTIFIC LABORATORY</h3>
+            <a href=""><img src="../images/computer-lab.jpg" alt=""></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi architecto laborum inventore animi corrupti 
+              mollitia nam ad dicta neque error.
+             </p>
+        </div>
+        <div class="lab-col">
+            <h3>SPORTS LABORATORY</h3>
+            <a href=""><img src="../images/computer-lab.jpg" alt=""></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi architecto laborum inventore animi corrupti <br>
+              mollitia nam ad dicta neque error.
+        </div>
+       </div>
+    </section>
+    
+    <!-- javaScript codes -->
+    <script>
+        let navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+#nav{
+    background: rgb(24, 24, 59);
+    padding: 0%;
+    margin: 0;
+}
+#nav img{
+    width: 100px;
+}
+
+.task-bar{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 250px;
+    height: 700px;
+    padding: 20px 0 0 0;
+    background: rgb(22, 22, 59);
+    color:#fff;
+    text-align: center;
+
+}
+.task-bar li{
+    list-style: none;
+    margin: 20px auto;
+    width: 85%;
+    border-bottom: 1px solid #fff;
+}
+
+.task-bar a{
+    display: block;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: rgb(156, 166, 224);
+    font-size: 16px;
+}
+.task-bar li:hover{
+    background:rgb(11, 158, 11);
+    border-radius: 15px;
+    width: 90%;
+    color: #fff;
+}
+.task-bar .img{
+    border-radius: 50%;
+    width: 100px;
+}
+.task-bar a:hover{
+    color: #fff;
+}
